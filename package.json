@@ -1,5 +1,5 @@
 {
-  "name": "package",
+  "name": "vitets-template",
   "version": "0.0.1",
   "scripts": {
     "dev": "vite",
