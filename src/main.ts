@@ -3,8 +3,10 @@
     Feel free to tweak and make any comments to improve the template. */
 
 import './style.css'
-import './components/navbar.css'
-import Routing from './components/routing';
+import '../assets/css/bootstrap.css'
+import '../assets/js/bootstrap.js'
+
+import Routing from './components/routing'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 app.innerHTML = Routing();
